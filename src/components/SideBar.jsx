@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Logo from "../../public/Logo.png";
 import { friendStreamData, navData, popularGamesData } from "../Data/dummyData";
-import SideBarData from "./ListData/sideBarData";
+import SideBarData from "./ListData/SideBarData";
 import { IoMdSettings, IoIosLogOut, IoMdPerson } from "react-icons/io";
 import PopularSidebarData from "./ListData/PopularSidebarData";
 import FriendsData from "./ListData/FriendsData";

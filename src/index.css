@@ -1,0 +1,90 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #1c1632;
+  overflow-x: hidden;
+}
+
+.sidebar-link {
+  color: #6a6a6a;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+.sidebar-link:hover,
+.activeItem {
+  background-color: #792783;
+  color: #fff;
+}
+
+.hoverLink {
+  color: #6a6a6a;
+  transition: color 0.3s ease-in;
+}
+
+.hoverLink:hover {
+  color: #c15aec;
+}
+
+.customScrollbar::-webkit-scrollbar {
+  width: 2px;
+}
+
+.customScrollbar::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.listPopular::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 255, 0);
+  border: 5px solid #1c1632;
+  border-radius: 50%;
+  left: -10%;
+  top: -8%;
+  z-index: 10;
+}
+
+.navbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: #1c163260;
+  backdrop-filter: blur(10px);
+}
+
+/* .slick-slide {
+  margin: 0px 0.01rem;
+} */
+.timeSideHeader {
+  background-color: #ffffff69;
+  padding: 0px 0.2rem;
+}
+
+.element {
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.8) 40%,
+    rgba(0, 0, 0, 0.6) 50%,
+    rgba(0, 0, 0, 0.4) 60%,
+    rgba(0, 0, 0, 0.2) 80%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.matchesID {
+  background: #120d21;
+  transition: background 0.2s ease;
+}
+
+.matchesID:hover {
+  background: linear-gradient(to top, #9900ff, #ff93fb);
+}

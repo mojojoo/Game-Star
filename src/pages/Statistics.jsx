@@ -3,7 +3,7 @@
 import React from "react";
 import Graph from "../../public/Graph.jpg";
 import { statisticsPowerData } from "../Data/dummyData";
-import PowerData from "../components/ListData/powerData";
+import PowerData from "../components/ListData/PowerData";
 import LogoOne from "../../public/LastmatchImgs/Logo01.jpg";
 import LogoTwo from "../../public/LastmatchImgs/Logo02.jpg";
 import Stats from "../../public/bgStats.png";
